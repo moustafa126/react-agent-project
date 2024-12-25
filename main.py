@@ -87,7 +87,7 @@ def main():
 
     llm = ChatGoogleGenerativeAI(
         model="gemini-2.0-flash-exp",
-        temperature=0
+        temperature=1
     )
 
     template = """
