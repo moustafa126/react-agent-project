@@ -136,6 +136,27 @@ This article analyzes Manchester City's recent decline, contrasting their curren
 *   The team is seen as tactically aged, and the manager has struggled to find new strategies.
 ```
 
+### Both Business & Sports News Example
+```python
+    user_input = "Fetch the latest business and sports articles from the BBC"
+```
+
+**Sample Output:**
+```
+FINAL RESPONSE:
+**Summary 1 (BBC Business):** American Airlines experienced a technical issue that caused a nationwide halt of flights for around an hour on Christmas Eve. The issue, attributed to a "vendor technology issue," disrupted travel plans during one of the busiest travel days of the year. While flights have resumed, delays are still being reported at major US airports. Passengers were temporarily held on the tarmac or asked to disembark from their planes. This is not the first such incident for American Airlines, as they had a similar issue due to a global IT crash in July.
+
+**Summary 2 (BBC Business):** The UK government is consulting with the car industry on how to phase out new petrol and diesel car sales by 2030. This ban had been extended to 2035 but the current Labour government wants to restore the 2030 deadline. Car industry leaders have expressed concerns that the switch to electric vehicles is not happening quickly enough due to cost and infrastructure issues. The government said the consultation aims to provide clarity for manufacturers and the charging industry, encouraging long-term investment. The consultation also includes hybrid vehicles, vans and small volume manufacturers.
+
+**Summary 3 (BBC Business):** Morrisons, a UK supermarket chain, experienced significant delivery delays and discount issues on the biggest grocery shopping day of the year, December 23rd. Customers experienced order cancellations and voucher issues. Morrisons has apologized for the "systems issues" but has yet to explain the cause of the problems. The supermarket is offering a 10% discount to loyalty card members as compensation.  A consumer expert emphasized the need for transparency and making amends with loyal customers.
+
+**Summary 4 (BBC Sport):**  Manchester City is currently facing a crisis, having lost nine out of their last 12 matches. This is a significant downturn for the team, which was previously unbeaten and leading the Premier League. The article delves into the reasons for the crisis, including injuries to key players like Rodri, uncharacteristic errors from players, and a drop in confidence. Manager Pep Guardiola is reportedly trying different strategies to address the issues, and the club is planning significant changes to the squad, potentially replacing five or six regular starters, by the end of his current contract.
+
+**Summary 5 (BBC Sport):** This article explores how Sir Alex Ferguson built his last great Manchester United side, culminating in their 2008 Champions League victory. It highlights key moments, such as the dressing room incident where Ferguson brought a young Cristiano Ronaldo to tears and his speech to his players in Moscow, emphasizing hard work and his working-class roots.  It underscores Ferguson's ability to reinvent his squad and adapt to the evolving landscape of the Premier League, by integrating global talent and tactics. It also notes the influence of assistant manager Carlos Queiroz.
+
+**Summary 6 (BBC Sport):** The International Cricket Council has released the fixtures for the 2025 Champions Trophy. India will face Pakistan in Dubai on February 23rd. The tournament will be hosted by Pakistan and in Dubai as a neutral venue from February 19 to March 9. The tournament includes eight teams, divided into two groups, with Pakistan and India in Group A. Due to ongoing political tensions, India will play all of their group games, plus the first semi-final in Dubai, and the final will also move to Dubai if India makes it.
+
+```
 
 ## Customization Options
 
