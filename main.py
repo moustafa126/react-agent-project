@@ -141,7 +141,7 @@ Query: {{input}}
         }
     )
 
-    user_input = "Fetch the latest business articles from the BBC"
+    user_input = input("Enter your query: ")
 
     try:
         print("Invoking agent with input:", user_input)
