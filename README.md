@@ -31,7 +31,7 @@ pip install feedparser requests beautifulsoup4 langchain-google-genai
 
 3. Set up your Google API key:
 ```bash
-export GOOGLE_API_KEY="YOUR_GOOGLE_API_KEY"
+    os.environ["GOOGLE_API_KEY"] = "AIzaSyBWqs0UBXFY5KWdsLV55o5CD3Tt3pB8lwU"
 ```
 
 ## Project Structure
