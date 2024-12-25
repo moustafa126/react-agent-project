@@ -19,7 +19,7 @@ A sophisticated news aggregation agent that leverages the ReAct (Reason + Act) p
 
 ## Installation
 
-1. Clone the code:
+1. Clone the project:
 ```bash
 git clone https://github.com/moustafa126/react-agent-project.git
 cd react-agent-project
