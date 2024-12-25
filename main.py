@@ -90,14 +90,16 @@ def main():
         temperature=1
     )
 
+
     template = """
 You are a ReAct agent specialized in fetching and summarizing news. Use the following steps:
 
 1. Find the correct RSS feed URL from the following list using journal name and category.
-2. Use 'FetchNews' to get 3 articles. Scrape the 3 articles using 'scrape_page_content'
-3. Summarize each article providing details and important key points. Number the summaries and mention the journal name.
+2. Use 'FetchNews' to get 3 articles. If it fails, use "ScrapeLinks" as fallback with the origianl journal link.
+3. Scrape the 3 articles using 'scrape_page_content'
+4. Summarize each article providing details and important key points. Number the summaries and mention the journal name.
 
--BBC
+-BBC (https://www.bbc.com/)
 Sports: "http://feeds.bbci.co.uk/sport/rss.xml"
 News: "http://feeds.bbci.co.uk/news/rss.xml"
 Business: "http://feeds.bbci.co.uk/news/business/rss.xml"
@@ -106,7 +108,7 @@ Culture: "http://feeds.bbci.co.uk/programmes/b006q2x0/episodes/downloads.rss"
 Arts: "http://feeds.bbci.co.uk/arts/rss.xml"
 Travel: "http://feeds.bbci.co.uk/news/world/rss.xml"
 
-- Guardian
+- Guardian (https://www.theguardian.com/)
 Sports: "https://www.theguardian.com/sport/rss"
 News: "https://www.theguardian.com/world/rss"
 Business: "https://www.theguardian.com/business/rss"
@@ -115,7 +117,7 @@ Culture: "https://www.theguardian.com/culture/rss"
 Arts: "https://www.theguardian.com/artanddesign/rss"
 Travel: "https://www.theguardian.com/travel/rss"
 
-- Reuters
+- Reuters (https://www.reuters.com/)
 Sports: "https://www.reuters.com/sports/rss"
 News: "https://www.reuters.com/news/rss"
 Business: "https://www.reuters.com/finance/rss"
